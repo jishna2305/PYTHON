@@ -1,0 +1,4 @@
+color=input("Enter colors(space between colors):")
+color_list=color.split(" ")
+print(color_list)
+print("The first color of the list is:",color_list[0],"\nAnd the last color is:",color_list[-1])
